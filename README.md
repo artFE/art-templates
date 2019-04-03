@@ -1,6 +1,6 @@
 ## Template name
 
-base_h5
+art-vue-pro
 
 ## Scope of application
 
