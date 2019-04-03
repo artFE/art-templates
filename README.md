@@ -1,32 +1,38 @@
-# art-templates
+## Template name
 
-Project template store, it's recommended to work with [art-cli](https://github.com/artFE/art-cli).
+base_h5
 
-## Vision
+## Scope of application
 
-Becoming the most comprehensive project template store, offering the possibility of rapid initialization for all types of projects.
+Develop middle-back project using vue2.x and use [art-vue](https://github.com/artFE/art-vue) as a component library.
 
-## Templates
+## Demo
 
-- [base_h5](https://github.com/artFE/art-templates/tree/base_h5)
+[Demo](https://vuep.artfe.club)
 
-## Issues
+## Install
 
-[Issues](https://github.com/artFE/art-templates/issues)
+```Bash
+npm install
+// or yarn
+```
 
-## Contribute
+## Usage
 
-You can use the template name to open a new branch to submit the template.
+```Bash
+npm run serve
+```
 
-## Changelog
+## Build
 
-[Changelog](https://github.com/artFE/art-templates/blob/master/CHANGELOG.md)
+```Bash
+npm run build
+```
 
-## Thanks
+## Author
 
-Thank you for your use, and we look forward to your submission of more templates.
+McChen<mcchen.club@gmail.com>
 
 ## License
 
-[MIT](https://github.com/artFE/art-templates/blob/master/LICENSE.md)
-
+MIT
