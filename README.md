@@ -1,3 +1,7 @@
+<div align=center>
+    <img width="172" title="ArtTemplates - Project template store." alt="ArtTemplates - Project template store." src="logo.png"/>
+</div>
+
 # art-templates
 
 Project template store, it's recommended to work with [art-cli](https://github.com/artFE/art-cli).
