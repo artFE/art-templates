@@ -9,6 +9,7 @@ Becoming the most comprehensive project template store, offering the possibility
 ## Templates
 
 - [base_h5](https://github.com/artFE/art-templates/tree/base_h5)
+- [art-vue-pro](https://github.com/artFE/art-templates/tree/art-vue-pro)
 
 ## Issues
 
