@@ -1,0 +1,10 @@
+{
+  "name": "项目名称",
+  "author": "金融UDC-Mobile",
+  "host": "host",
+  "user": "user",
+  "pwd": "pwd",
+  "path": "path",
+  "demoPath": "demoPath",
+  "cdnPath": "cdnPath"
+}

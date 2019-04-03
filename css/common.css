@@ -1,0 +1,142 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  line-height: 1; }
+
+img {
+  width: 100%;
+  vertical-align: top; }
+
+.hidden {
+  display: none; }
+
+.v-hidden {
+  visibility: hidden; }
+
+.flex {
+  display: flex; }
+
+.flex-item {
+  flex: 1;
+  width: 0; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.jm-toast {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  box-align: center; }
+  .jm-toast .jm-toast-content {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-border-radius: 3px;
+    z-index: 1999;
+    text-align: center;
+    max-width: 80%; }
+
+.jm-toast.fadeOut {
+  animation: fadeOut 0.3s ease-in 1.2s forwards; }
+
+@keyframes rotateInfinite {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+.jm-loading {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  box-align: center; }
+  .jm-loading .jm-loading-content {
+    position: relative;
+    display: block;
+    width: 54px;
+    height: 54px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    line-height: 54px;
+    border-radius: 3px; }
+    .jm-loading .jm-loading-content:before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 50%;
+      margin-top: -20px;
+      margin-left: -20px;
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      box-sizing: border-box;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 2px solid #ffffff;
+      animation: rotateInfinite 0.85s linear infinite both; }
+
+.jm-dialog {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  box-align: center; }
+  .jm-dialog .jm-dialog-content {
+    width: 280px;
+    background-color: #ffffff; }
+    .jm-dialog .jm-dialog-content .jm-dialog-title {
+      font-size: 18px;
+      line-height: 30px;
+      color: #333333;
+      text-align: center;
+      padding: 24px 0; }
+    .jm-dialog .jm-dialog-content .jm-dialog-btn {
+      position: relative;
+      display: block;
+      width: 100%;
+      font-size: 18px;
+      color: #508cee;
+      line-height: 25px;
+      padding: 12.5px 0;
+      text-align: center; }
+      .jm-dialog .jm-dialog-content .jm-dialog-btn:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 1px;
+        border-top: 1px solid #dddddd;
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        pointer-events: none; }

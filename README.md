@@ -1,32 +1,53 @@
-# art-templates
+## Template name
 
-Project template store, it's recommended to work with [art-cli](https://github.com/artFE/art-cli).
+base_h5
 
-## Vision
+## Scope of application
 
-Becoming the most comprehensive project template store, offering the possibility of rapid initialization for all types of projects.
+Project template in MVC development mode for h5.
 
-## Templates
+## Advantages
 
-- [base](https://github.com/artFE/art-templates/tree/base)
+- Support command line to directly publish uploads
+- Automatically complete the css prefix
+- Provide Utils tool methods, including loading and toast
 
-## Issues
+## Usage
 
-[Issues](https://github.com/artFE/art-templates/issues)
+1. install
 
-## Contribute
+    ```Bash
+    npm install
+    ```
 
-You can use the template name to open a new branch to submit the template.
+    > If you have previously installed it globally, you can skip it.
 
-## Changelog
+2. build
 
-[Changelog](https://github.com/artFE/art-templates/blob/master/CHANGELOG.md)
+    ```Bash
+    gulp buildmdemo // Publish to the demo directory configured in `config.json`
+    gulp builddemo // Publish to the demo directory configured in `config.json` width compress
+    gulp buildmcdn // Publish to the cdn directory configured in `config.json`
+    gulp buildcdn // Publish to the cdn directory configured in `config.json` width compress
+    ```
 
-## Thanks
+3. Utils
 
-Thank you for your use, and we look forward to your submission of more templates.
+    - Utils.formatTime(Date, format)
+    - Utils.getBrowserInfo()
+    - Utils.getCookie(name)
+    - Utils.getUrlString(name)
+    - Utils.pageLock()
+    - Utils.pageUnlock()
+    - Utils.showToast(text)
+    - Utils.hideToast()
+    - Utils.showLoading()
+    - Utils.hideLoading()
+
+## Author
+
+McChen<mcchen.club@gmail.com>
 
 ## License
 
-[MIT](https://github.com/artFE/art-templates/blob/master/LICENSE.md)
-
+MIT
