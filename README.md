@@ -8,7 +8,7 @@ Becoming the most comprehensive project template store, offering the possibility
 
 ## Templates
 
-- [base](https://github.com/artFE/art-templates/tree/base)
+- [base_h5](https://github.com/artFE/art-templates/tree/base_h5)
 
 ## Issues
 
